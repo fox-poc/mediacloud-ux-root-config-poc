@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@fox/mediacloud-ux-router-poc": "http://localhost:3002/src/spa.tsx",
+    "@fox/mediacloud-ux-react-poc": "https://jaredkjar.github.io/mediacloud-ux-react-poc/fox-mediacloud-ux-react-poc.js"
+  }
+}
