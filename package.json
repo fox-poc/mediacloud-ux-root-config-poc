@@ -2,6 +2,7 @@
   "name": "@fox-poc/mediacloud-ux-root-config-poc",
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://fox-poc.github.io/mediacloud-ux-root-config-poc/",
   "scripts": {
     "start": "vite",
     "build": "tsc -b && vite build",
