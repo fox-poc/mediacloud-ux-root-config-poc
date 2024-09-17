@@ -1,7 +1,7 @@
 // pkg
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { registerApplication, start, getAppNames } from "single-spa";
+import { registerApplication, start, getAppNames, addErrorHandler, getAppStatus, LOAD_ERROR } from "single-spa";
 
 import {
   constructApplications,
@@ -9,6 +9,13 @@ import {
   constructLayoutEngine,
 } from "single-spa-layout";
 import microfrontendLayout from "./microfrontend-layout.html?raw";
+
+// app load error handling
+addErrorHandler((err) => {
+  if (getAppStatus(err.appOrParcelName) === LOAD_ERROR) {
+    console.log(err.appOrParcelName)
+  }
+});
 
 const routes = constructRoutes(microfrontendLayout);
 const applications = constructApplications({
@@ -19,8 +26,12 @@ const applications = constructApplications({
 });
 const layoutEngine = constructLayoutEngine({ routes, applications });
 
+const getUserGroups = () => {
+  return ["admin"];
+}
+
 applications.forEach((application) =>
-  registerApplication({ ...application, customProps: { token: "123" } })
+  registerApplication({ ...application, customProps: { token: "123", groups: getUserGroups() } })
 );
 layoutEngine.activate();
 
