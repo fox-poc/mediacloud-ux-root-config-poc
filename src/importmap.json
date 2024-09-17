@@ -1,8 +1,8 @@
 {
   "imports": {
-    "@fox-poc/mediacloud-ux-router-poc": "http://fox-poc.github.io/mediacloud-ux-router-poc/spa.js",
-    "@fox-poc/mediacloud-ux-react-poc": "http://fox-poc.github.io/mediacloud-ux-react-poc/spa.js",
-    "@fox-poc/mediacloud-ux-svelte-poc": "http://fox-poc.github.io/mediacloud-ux-svelte-poc/spa.js",
-    "@fox-poc/mediacloud-ux-vue-poc": "http://fox-poc.github.io/mediacloud-ux-vue-poc/main.js"
+    "@fox-poc/mediacloud-ux-router-poc": "https://fox-poc.github.io/mediacloud-ux-router-poc/spa.js",
+    "@fox-poc/mediacloud-ux-react-poc": "https://fox-poc.github.io/mediacloud-ux-react-poc/spa.js",
+    "@fox-poc/mediacloud-ux-svelte-poc": "https://fox-poc.github.io/mediacloud-ux-svelte-poc/spa.js",
+    "@fox-poc/mediacloud-ux-vue-poc": "https://fox-poc.github.io/mediacloud-ux-vue-poc/main.js"
   }
 }
