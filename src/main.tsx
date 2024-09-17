@@ -14,7 +14,7 @@ const routes = constructRoutes(microfrontendLayout);
 const applications = constructApplications({
   routes,
   loadApp({ name }) {
-    return import(/* @vite-ignore */name);
+    return import(/* @vite-ignore */ name);
   },
 });
 const layoutEngine = constructLayoutEngine({ routes, applications });
@@ -28,9 +28,6 @@ if (process.env.NODE_ENV === "development") {
   console.log("APPLICATIONS", getAppNames());
   // enable the single spa import map override panel in dev mode
   localStorage.setItem("imo-ui", "true");
-} else {
-  // disable the single spa import map override panel for built environments (can still be accessed using the browser extension)
-  localStorage.setItem("imo-ui", "false");
 }
 start();
 
