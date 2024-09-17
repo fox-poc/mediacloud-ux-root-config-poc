@@ -1,8 +1,8 @@
 {
   "imports": {
-    "@fox/mediacloud-ux-router-poc": "http://localhost:3002/src/spa.tsx",
-    "@fox/mediacloud-ux-react-poc": "http://localhost:3003/src/spa.tsx",
-    "@fox/mediacloud-ux-svelte-poc": "http://localhost:3004/src/spa.tsx",
-    "@fox/mediacloud-ux-vue-poc": "http://localhost:3005/src/main.tsx"
+    "@fox-poc/mediacloud-ux-router-poc": "http://localhost:3002/src/spa.tsx",
+    "@fox-poc/mediacloud-ux-react-poc": "http://localhost:3003/src/spa.tsx",
+    "@fox-poc/mediacloud-ux-svelte-poc": "http://localhost:3004/src/spa.tsx",
+    "@fox-poc/mediacloud-ux-vue-poc": "http://localhost:3005/src/main.tsx"
   }
 }

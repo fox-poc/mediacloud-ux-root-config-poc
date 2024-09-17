@@ -1,6 +1,6 @@
 {
   "imports": {
-    "@fox/mediacloud-ux-router-poc": "https://jaredkjar.github.io/mediacloud-ux-router-poc/fox-mediacloud-ux-router-poc.js",
-    "@fox/mediacloud-ux-react-poc": "https://jaredkjar.github.io/mediacloud-ux-react-poc/fox-mediacloud-ux-react-poc.js"
+    "@fox-poc/mediacloud-ux-router-poc": "https://jaredkjar.github.io/mediacloud-ux-router-poc/fox-mediacloud-ux-router-poc.js",
+    "@fox-poc/mediacloud-ux-react-poc": "https://jaredkjar.github.io/mediacloud-ux-react-poc/fox-mediacloud-ux-react-poc.js"
   }
 }
