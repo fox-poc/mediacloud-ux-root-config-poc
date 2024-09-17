@@ -61,4 +61,4 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         <application name="@fox-poc/mediacloud-ux-svelte-poc"></application>\r
       </route>\r
     </main>\r
-  </single-spa-router>`,id=Xm(th),ud=bm({routes:id,loadApp({name:e}){return import(e)}}),nh=Zm({routes:id,applications:ud});ud.forEach(e=>Zf({...e,customProps:{token:"123"}}));nh.activate();localStorage.setItem("imo-ui","false");td();Mf(document.getElementById("root")).render(Ld.jsx(Bi.StrictMode,{}));
+  </single-spa-router>`,id=Xm(th),ud=bm({routes:id,loadApp({name:e}){return import(e)}}),nh=Zm({routes:id,applications:ud});ud.forEach(e=>Zf({...e,customProps:{token:"123"}}));nh.activate();td();Mf(document.getElementById("root")).render(Ld.jsx(Bi.StrictMode,{}));
